@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -745,16 +745,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7728630880a034aa9ecfdaa68d582c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsDeVie: 0
   PVmax: 1
   Explosion: {fileID: 1081910296}
   Death:
     m_PersistentCalls:
       m_Calls:
-      - {m_Target: {fileID: 429581413}, m_MethodName: SetTrigger, m_Mode: 5, m_Arguments: {m_ObjectArgument: {fileID: 0},
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, m_IntArgument: 0,
-          m_FloatArgument: 0, m_StringArgument: Ouverture, m_BoolArgument: 0}, m_CallState: 2}
-    m_CallsDirty: 1
+      - m_Target: {fileID: 429581413}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1628645201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,12 +1204,12 @@ PrefabInstance:
     - target: {fileID: 1531182604770908795, guid: c7584cc4fe0e8424db2ab3ee99bba09d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.345
+      value: -5.15
       objectReference: {fileID: 0}
     - target: {fileID: 1531182604770908795, guid: c7584cc4fe0e8424db2ab3ee99bba09d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.03
+      value: -1.64
       objectReference: {fileID: 0}
     - target: {fileID: 1531182604770908795, guid: c7584cc4fe0e8424db2ab3ee99bba09d,
         type: 3}
