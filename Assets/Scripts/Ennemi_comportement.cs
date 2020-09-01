@@ -9,7 +9,6 @@ public class Ennemi_comportement : MonoBehaviour
     float PointsDeVie;
     [SerializeField] float PVmax;
     [SerializeField] GameObject Explosion;
-    public UnityEvent Death;
     void Start()
     {
         PointsDeVie = PVmax;
@@ -32,9 +31,8 @@ public class Ennemi_comportement : MonoBehaviour
 
     private void Die()
     {
+        Instantiate(Explosion,transform.position,Quaternion.identity);
         Destroy(gameObject);
-        Explosion.SetActive(true);
-        Death.Invoke();
     }
     // Update is called once per frame
     void Update()

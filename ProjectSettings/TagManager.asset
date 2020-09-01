@@ -20,9 +20,9 @@ TagManager:
   - Player
   - Laser
   - Ennemi
-  - 
-  - 
-  - 
+  - Champ de forss
+  - Fond
+  - Mur
   - 
   - 
   - 
@@ -42,15 +42,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2300989109
+    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Premier plan
-    uniqueID: 459895729
     locked: 0
   - name: Second plan
     uniqueID: 480049337
     locked: 0
-  - name: Background
-    uniqueID: 2300989109
+  - name: Premier plan
+    uniqueID: 459895729
     locked: 0

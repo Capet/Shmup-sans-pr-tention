@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Comportement_Ptite_Sphere : MonoBehaviour
 {
+    // Script useless laissé à l'abandon (car il faut récupérer la position de l'objet parent explosion)
     private Rigidbody2D myRigidbody;
     private Vector2 Direction;
     // Start is called before the first frame update
